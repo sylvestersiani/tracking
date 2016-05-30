@@ -1,4 +1,8 @@
 <?php 
+
+// testing
+
+
 	$page_title = "Dashboard";
 	require_once('inc/header.php');
 

@@ -1,0 +1,50 @@
+
+
+nav ul{
+	width: 100%;
+
+}
+nav li{
+	list-style: none;
+	display: inline-block;
+	width: 33.33%;
+	float: left;
+	border-bottom:1px solid #efefef;
+}
+nav li a{
+	display: block;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+	color: #00aedb;
+	padding: 1em;
+}
+nav li a:hover{
+	color: #000;
+	background-color: #efefef;
+
+}
+
+
+
+@media screen and (max-width: 500px){
+	#nav-menu{}
+	nav ul{
+		float: none; 
+		padding:0;
+		height: 80px;
+	}
+	nav ul li{
+		width: 100%; 
+		margin: 1px;
+		height: 50px;
+	}
+	nav ul li a{
+		display: block;
+		text-align: center;
+		padding: 1em;
+
+	}
+	nav ul li a:hover{background-color: #efefef;}
+		
+}

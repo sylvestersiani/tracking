@@ -1,6 +1,6 @@
 <?php
 	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-		require_once('db_con.php');
+		require_once('../model/db_con.php');
 		// hidden id tring assigned to a var (might need to sanitize this)
 		$id = $_POST['id_update'];	
 		// assigning new status update to a string, will also need to sanitize this - maybe

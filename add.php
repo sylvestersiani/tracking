@@ -1,4 +1,4 @@
-<?php require_once 'inc/add-project.php';?>
+<?php require_once 'inc/control/add-project.php';?>
 <?php 
 	$page_title = "New order";
 	require_once('inc/header.php');?>

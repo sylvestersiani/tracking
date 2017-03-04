@@ -4,7 +4,7 @@ if (isset($_SESSION['user'])) {
 	// assigning the session to a variable
 	$session_id = $_SESSION['user'];
 	// DB connection and query to check if the session user is int he database. Not sure if this is unecessary but it makes total sense to have it their just for precaution also would be handy if the user no longer exists in our DB
-	require_once('inc/db_con.php');
+	require_once('inc/model/db_con.php');
 	$user_query = "SELECT * FROM admin_group";
 	$user_result = mysqli_query($db_con, $user_query);
 	

@@ -1,8 +1,8 @@
 <?php 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	// all required files
-	require_once'func/functions.php';
-	require_once'db_con.php';
+	require_once'../func/functions.php';
+	require_once'../model/db_con.php';
 	// next couple of lines takes into account the data input, passes it through an array of tests then sanitized.
 		
 	

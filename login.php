@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$username = clean($_POST['username']);
 	
 		// requiring DB for query
-		require_once('inc/db_con.php');
+		require_once('inc/model/db_con.php');
 		// user query passed to the database
 		$user_query = "SELECT * FROM admin_group";
 		$user_result = mysqli_query($db_con, $user_query);

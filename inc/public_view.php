@@ -1,6 +1,6 @@
 <?php 
 
-require_once('db_con.php');
+require_once('model/db_con.php');
 require('func/functions.php');
   
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {

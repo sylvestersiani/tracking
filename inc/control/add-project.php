@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 			if(email($client_email, $project_code, $tracking_code)){
 				// if the email is successfully sent the user is redirected to the dashboard
-				header('location: dashboard.php');
+				header('location: ../dashboard.php');
 			}else {
 	
 				// if the email failed to sent this is returned
